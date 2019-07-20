@@ -1,0 +1,106 @@
+body {
+  background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0559/7317/rdog_bone_pattern_turq_shop_preview.jpg");
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: #493932;
+  text-align: right;
+  border-radius: 10px;
+}
+
+#header-img {
+  width: 150px;
+  height: 90px;
+  float: left;
+  padding: 10px;
+}
+
+#nav-bar a {
+  float: right;
+  display: block;
+  color: white;
+  transition-duration: 0.4s;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Bree Serif', serif;
+}
+
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 2em;
+}
+
+#email {
+  margin-left: auto;
+  margin-right: auto;
+  height: 2em;
+  width: 19em;
+  border-radius: 1em;
+}
+
+#submit {
+  height: 3em;
+  width: 8em;
+  border-radius: 1em;
+  -webkit-appearance: none;
+  font-family: 'Salsa', cursive;
+}
+
+p {
+  text-align: center;
+  margin-top: 110px;
+  padding: 5px;
+  font-family: 'Salsa', cursive;
+  font-size: 18px;
+}
+
+.button {
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.email {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.form {
+  background-color: #ece8d3;
+  border-radius: 30px;
+}
+
+ul {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.amenities {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+#watch {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  padding-top: 40px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
