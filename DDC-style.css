@@ -1,23 +1,21 @@
 body {
-  background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0559/7317/rdog_bone_pattern_turq_shop_preview.jpg");
+  background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0559/7317/rdog_bone_pattern_turq_shop_preview.jpg")
 }
-
 header {
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100px;
-  background-color: #493932;
+  background-color:  #33383b;
   text-align: right;
   border-radius: 10px;
 }
-
 #header-img {
   width: 150px;
   height: 90px;
   float: left;
-  padding: 10px;
+  padding:10px;
 }
 
 #nav-bar a {
@@ -44,14 +42,14 @@ header {
   height: 2em;
   width: 19em;
   border-radius: 1em;
-}
 
+}
 #submit {
-  height: 3em;
-  width: 8em;
-  border-radius: 1em;
-  -webkit-appearance: none;
-  font-family: 'Salsa', cursive;
+    height: 3em;
+    width: 8em;
+    border-radius: 1em;
+    -webkit-appearance: none;
+    font-family: 'Salsa', cursive;   
 }
 
 p {
@@ -63,7 +61,7 @@ p {
 }
 
 .button {
-  text-align: center;
+  text-align: center; 
   position: relative;
   bottom: 20px;
 }
@@ -77,12 +75,14 @@ p {
 .form {
   background-color: #ece8d3;
   border-radius: 30px;
+  
 }
 
 ul {
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+
 }
 
 .amenities {
@@ -103,4 +103,209 @@ h2 {
   padding-top: 40px;
   border-bottom: 2px solid black;
   padding-bottom: 5px;
+  
+}
+  #pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  justify-content: center;
+  box-shadow: 5px 5px #33383b;
+}
+
+.flex-container > .level {
+  background-color: #ece8d3;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.flex-container > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+  border-radius: 20px;
+  width: 8em;
+}
+
+.flex-container > button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  
+  .flex-container {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+.footer-distributed{
+	background-color: #33383b;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+  height: auto;
+	padding: 5px 60px;
+	margin-top: 80px;
+  border-radius: 10px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: auto;
+  margin-top: 20px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.1;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 28px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
 }
